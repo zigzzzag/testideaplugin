@@ -24,6 +24,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <fileTypeFactory implementation="language.SimpleFileTypeFactory"/>
+        <lang.psiStructureViewFactory language="Simple" implementationClass="structure.SimpleStructureViewFactory"/>
     </extensions>
 
     <actions>
